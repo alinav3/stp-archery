@@ -1,0 +1,20 @@
+/*HTML-100 group-3 Style guide */
+
+
+/*style guide for h1 heading */
+h1 {
+  text-decoration: none;
+  font-weight: 700;
+}
+/* styling for p tags */
+p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/*styling for search button*/
+.btnSearch {
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+}
