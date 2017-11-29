@@ -5,9 +5,11 @@
 <html>
 <head>
   
-<meta charset="UTF-8">
+   <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>STP - Archery</title>
   
-<title>stp-archery website</title>
+<title>STP - Archery</title>
   
 <!--  Google Fonts-->
 <!--   <link href="#">-->
@@ -15,26 +17,27 @@
 <!--  Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-<!--  css-->
-<!--  <link rel="#">-->
+<!-- insert links to google fonts or font awesome here-->
+    <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 
 </head>
-
-<body>
   
-<header>
-     <a href="index.html"><img src="images/logo.jpg" alt="Logo"> </a>
-      <h1>Straight to the Point Archery</h1>
-</header>
-  
-<!--  side navigation-->
-   <div>
-        <a href="about.html">About</a>
-        <a href="classes.html">Classes</a>
-        <a href="Instructors.html">Instructors</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-  </div>
+  <body>
+    <!--div class main-wrapper wraps entire page -->
+    <div>
+      <!--center-wrapper used to wrap main headline, side navigation(with logo) and main content--> 
+        <aside>
+          <!--Make sure to resize logo in the stylesheet    -->
+          <img src="images/logo.jpg" alt="Logo">
+          <input type="text" placeholder="Search">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="classes.html">Class Schedule</a></li>
+          </ul>
+        </aside>
 
   <h2>Meet our instructors</h2>
   
@@ -79,6 +82,6 @@
       </article> 
 
 </footer>
-
+    </div>
 </body>
 </html>
