@@ -1,20 +1,46 @@
-/*HTML-100 group-3 Style guide */
 
-
-/*style guide for h1 heading */
-h1 {
-  text-decoration: none;
-  font-weight: 700;
-}
-/* styling for p tags */
-p {
-  text-align: justify;
-  font-size: 1rem;
+div {
+  width:10vw;
+  height:20vh;
+  float: left;
 }
 
-/*styling for search button*/
-.btnSearch {
-  border: none;
-  text-align: center;
-  font-size: 1rem;
+.white{
+  background-color: #FDFFFF;
 }
+.red{
+  background-color: #DB233B;
+}
+.orange{
+  background-color: #F9B743;
+}
+.yellow{
+  background-color: #FADF7F;
+}
+.green{
+  background-color: #95A38B;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+}
+
+button {
+    background-color: #F9B743;
+    border: none;
+    color: #FDFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    font-family: 'Merriweather', serif;
+}
+
+.clear{
+  clear: both;
