@@ -4,6 +4,7 @@
   font-family: serif;
   font-size: 1rem;
   color: rgb(255,255,255);
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(0,0,0);
@@ -16,60 +17,11 @@ body {
   margin-right:1vw;
   border:none;
 }
-aside{
+.side-nav{
+  width: 25%;
   float:left;
-  background-color:red;
-  width:15vw;
-  height:800px;
-}
-aside a{
-  text-decoration:none;
-  font-size:2vw;
-}
-aside ul{
-  padding-top:3vh;
-}
-aside li{
-  list-style-type:none;
-  margin-top:4vh;
-  padding-right:2vw;
-}
-#logo{
-  width:12vw;
-  padding-top:3vh;
-  padding-left:1.5vw;
 }
 .main-content-wrapper{
-  background-color:aqua;
-  height:800px;
-/*  overflow:scroll; note: have to adjust margin in .content class if you use overflow*/
+  width:75%;
+  float: left;
 }
-.main-content-wrapper h1{
-  background-color:blue;
-  font-size:4rem;
-  margin:inherit;
-  padding-left:18%;
-  padding-top:.75%;
-  padding-bottom:1%;
-}
-.main-content-wrapper img{
-  width:30vh;
-}
-.content{
-  margin-top:%;
-  margin-bottom:5%;
-  margin-left:18%;
-  padding-right:20%;
-}
-.content img{
-  float:left;
-  margin-right:3%;
-}
-
-footer {
-  clear:both;
-  background-color:green;
-  width:100%;
-}
-
-
