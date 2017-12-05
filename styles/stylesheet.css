@@ -4,9 +4,7 @@
   font-family: serif;
   font-size: 1rem;
   color: rgb(255,255,255);
-  
 }
-
 body {
   background-color: rgb(0,0,0);
   height:1000px;
@@ -14,54 +12,64 @@ body {
 .main-wrapper {
   background-color: rgb(200,200,200);
   width:95vw;
-  height:inherit;
-  margin-left:1vw;
+  margin-left:1.5vw;
   margin-right:1vw;
+  border:none;
 }
 aside{
   float:left;
-  padding-left:1vw;
   background-color:red;
   width:15vw;
-  height:1000px;
+  height:800px;
 }
 aside a{
   text-decoration:none;
-  font-size:2rem;
+  font-size:2vw;
+}
+aside ul{
+  padding-top:3vh;
 }
 aside li{
   list-style-type:none;
-  margin-top:4rem;
+  margin-top:4vh;
+  padding-right:2vw;
 }
 #logo{
   width:12vw;
   padding-top:3vh;
+  padding-left:1.5vw;
 }
 .main-content-wrapper{
   background-color:aqua;
-  height:1000px;
-/*  overflow:scroll;*/
+  height:800px;
+/*  overflow:scroll; note: have to adjust margin in .content class if you use overflow*/
 }
 .main-content-wrapper h1{
   background-color:blue;
   font-size:4rem;
   margin:inherit;
   padding-left:18%;
-  padding-top:.75rem;
-  padding-bottom:1rem;
-  margin-bottom:2%
+  padding-top:.75%;
+  padding-bottom:1%;
 }
 .main-content-wrapper img{
   width:30vh;
 }
 .content{
-  margin-left:18%
+  margin-top:%;
+  margin-bottom:5%;
+  margin-left:18%;
+  padding-right:20%;
 }
+.content img{
+  float:left;
+  margin-right:3%;
+}
+
 footer {
   clear:both;
   background-color:green;
   width:100%;
-  
 }
 
 
