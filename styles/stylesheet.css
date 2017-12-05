@@ -1,1 +1,67 @@
 /*Stylesheet for STP - Archery*/
+/*set typical font size, color, and family for site*/
+* {
+  font-family: serif;
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  
+}
+
+body {
+  background-color: rgb(0,0,0);
+  height:1000px;
+}
+.main-wrapper {
+  background-color: rgb(200,200,200);
+  width:95vw;
+  height:inherit;
+}
+aside{
+  float:left;
+  padding-left:1vw;
+  background-color:red;
+  width:15vw;
+  height:1000px;
+}
+aside a{
+  text-decoration:none;
+  font-size:2rem;
+}
+aside li{
+  list-style-type:none;
+  margin-top:4rem;
+}
+#logo{
+  width:12vw;
+  padding-top:3vh;
+}
+.main-content-wrapper{
+  background-color:aqua;
+  height:1000px;
+/*  overflow:scroll;*/
+}
+.main-content-wrapper h1{
+  background-color:blue;
+  font-size:4rem;
+  margin:inherit;
+  padding-left:18%;
+  padding-top:.75rem;
+  padding-bottom:1rem;
+  margin-bottom:2%
+}
+.main-content-wrapper img{
+  width:30vh;
+}
+.content{
+  margin-left:18%
+}
+.content:first-child{
+  padding-top:10rem;
+}
+footer {
+  clear:both;
+  background-color:green;
+  width:95vw;
+}
+
+
