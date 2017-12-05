@@ -15,6 +15,8 @@ body {
   background-color: rgb(200,200,200);
   width:95vw;
   height:inherit;
+  margin-left:1vw;
+  margin-right:1vw;
 }
 aside{
   float:left;
@@ -55,13 +57,11 @@ aside li{
 .content{
   margin-left:18%
 }
-.content:first-child{
-  padding-top:10rem;
-}
 footer {
   clear:both;
   background-color:green;
-  width:95vw;
+  width:100%;
+  
 }
 
 
