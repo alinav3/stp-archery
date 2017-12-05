@@ -1,4 +1,13 @@
 /*Stylesheet for STP - Archery*/
+/*
+*******************************************************************
+* NOTE TO TEAM: IGNORE BACKGROUND COLORS AND FONT STYLE AND COLOR.*  
+* I GAVE ELEMENTS BACKGROUND COLORS JUST TO SEE HOW THE STYLING   *
+* WAS AFFECTING THE LAYOUT AND POSITIONS.  NO THOUGHT WAS PUT     *
+* INTO FONT STYLES.                                               *
+*******************************************************************
+*/
+
 /*set typical font size, color, and family for site*/
 * {
   font-family: serif;
@@ -6,10 +15,12 @@
   color: rgb(255,255,255);
   box-sizing: border-box;
 }
+/*set background color and body height.  note:ignore color shown, used so I could see how styles changed paged*/
 body {
   background-color: rgb(0,0,0);
   height:100%;
 }
+/*Class Main-wrapper.  This should be the first div.  Wraps entire content inside body*/
 .main-wrapper {
   background-color: rgb(200,200,200);
   width:95vw;
@@ -17,32 +28,38 @@ body {
   margin-right:1vw;
   border:none;
 }
+/*Gave aside a class called .side-nav (maybe change aside to nav??) make sure to give aside the class name .side-nav*/
 .side-nav{
   background-color:red;
   width: 15%;
   height:850px;
   float:left;
 }
+/*side nav anchor tags*/
 .side-nav a{
   text-decoration:none;
   font-size:2vw;
 }
+/*side nav unordered list styling*/
 .side-nav ul{
   padding-top:3%;
   padding-right:10%;
   padding-left:10%
 }
+/*side nav list item styling*/
 .side-nav li{
   list-style-type:none;
   margin-top:20%;
   padding-right:10%;
   text-align:center;
 }
+/*gave the logo file an id to control sizing and positioning*/
 #logo{
   width:75%;
   padding-top:10%;
   padding-left:25%;
 }
+/*main content wrapper.  Make sure you have a div with class name main-content-wrapper that wraps heading and page conent outside of side nav and footer. Includes heading Straight to the point and objecs containing information of each page*/
 .main-content-wrapper{
   width:85%;
   float:left;
@@ -50,15 +67,19 @@ body {
   background-color:aqua;
   overflow:hidden; 
 }
+/*heading 1 Straight to the point, used to style the main heading, will be same from page to page*/
 .main-content-wrapper h1{
+  background-color:yellow;
   font-size:5vw;
   margin:inherit;
   padding-left:2%;
   padding-top:.75%;
   padding-bottom:.75%;
 }
+/*content changed from page to page.  I tried to create objects for easy styling.  Make sure you have divs with class name ='content'*/
 .content{
-  width:inherit;
+  background-color:black;
+  width:80%;
   margin-top:2%;
   margin-left:2%;
   padding-right:20%;
@@ -70,7 +91,9 @@ body {
   
   margin-right:3%;
 }
+/*footer styling*/
 footer {
+  background-color:green;
   clear:both;
   width:100%;
 }
