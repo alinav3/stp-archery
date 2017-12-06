@@ -1,0 +1,83 @@
+/*whole page font*/
+body { margin: 0;}
+* {font-family:'Roboto', sans-serif;
+color: #523e33;
+line-height: 1.6rem;
+  text-decoration: none;
+}
+/*
+color palette:
+brown: 
+#523e33
+
+green:
+#94c840
+*/
+
+/*--------------------------------------------------------------
+                         left side nav menu
+--------------------------------------------------------------*/
+.logo {
+  width: 100%;
+margin: 0 ;}
+
+nav {background-color:#523e33;
+}
+
+section a {color: #94c840;
+font-size: 1.5rem;
+display: block;
+padding: 0.5em ;}
+
+input, button {padding: 0.5em;}
+
+input {margin: 1em 0 1em 1em ;}
+
+
+/*--------------------------------------------------------------
+                            main
+--------------------------------------------------------------*/
+main {margin: 1em;}
+
+h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin: 1rem 0 ;
+}
+
+section img {float: left;
+margin: 1em;}
+
+section {clear: both;}
+
+.img { width: 240px;
+}
+
+p {
+line-height: 1.4rem;
+text-align: left;
+}
+
+h3, h4, h5 {padding: 0.7rem 0 0.2rem 0;
+  margin: 0;
+font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------
+                           footer
+--------------------------------------------------------------*/
+address {background-color: #523e33; 
+color: #94c840;
+padding: 1rem;
+margin-bottom: 0.7em;
+font-size: 1.3em;
+line-height: 1.5em;}
+
+footer {
+  text-align: center;}
+
+.policy {font-weight: bold;}
+
+article {font-size: 1rem;
+margin: 0;
+padding: 0 1rem;}

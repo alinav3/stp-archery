@@ -10,59 +10,72 @@
     <title>STP - Archery</title>
     
 <!--  Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <!--   <link href="#">-->
   
 <!--  Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-<!-- insert links to google fonts or font awesome here-->
-    <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+<!-- Stylesheets-->
+    
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-grid.css">
 
 </head>
   
-  <body>
-    <!--div class main-wrapper wraps entire page -->
-    <div>
-      <!--center-wrapper used to wrap main headline, side navigation(with logo) and main content--> 
-        <aside>
-          <!--Make sure to resize logo in the stylesheet    -->
-          <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
-          <input type="text" placeholder="Search">
-          <button type="button">Search</button>
-
-          <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="instructors.html">Instructors</a></li>
-            <li><a href="classes.html">Class Schedule</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </aside>
-
-  <h2>Meet our instructors</h2>
+<body class="site">
+      
+<nav>
+          <a href="index.html"><img class="logo" src="images/logo.jpg" alt="Logo"></a>
+<section>
+          <input type="text" placeholder="Search"><button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
   
-  <ul>
-  	<li>
-      <img src="images/derek-jenkins-instructor.jpg" alt="Derek Jenkins photo">
+          <a href="about.html">About</a>
+  
+          <a href="instructors.html">Instructors</a>
+  
+          <a href="classes.html">Class Schedule</a>
+  
+          <a href="#">Blog</a>
+  
+          <a href="#">Contact</a>
+</section>    
+</nav>
+
+<main>  
+        <!--      video
+Since we don't have aour oun video in the repo polder, we desided to put a link to youtube as a placeholder.-->
+     
+        <iframe width="100%" height="240px"
+src="https://www.youtube.com/watch?v=qpaue3Jhn1o">
+</iframe>
+
+      <!-- Page title -->
+  <h2>Meet our instructors:</h2>
+      <!--main-content-wrapper. Instructors img on left and text on right beside-->
+ 
+ <section>  
+      <img class="img" src="images/derek-jenkins-instructor.jpg" alt="Derek Jenkins photo">
       <h3>Derek Jenkins:</h3> 
       <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-    </li>
+  </section>
   
-    <li>
-      <img src="images/amy-smith-instructor.jpg" alt="Amy Smith photo">
+  <section>
+      <img class="img" src="images/amy-smith-instructor.jpg" alt="Amy Smith photo">
       <h4>Amy Smith:</h4> 
       <p>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-    </li>
-	
-    <li>
-	  <img src="images/nathan-lee-instructor.jpg" alt="Nathan Lee photo">
+   </section>
+  
+  <section>
+	  <img class="img" src="images/nathan-lee-instructor.jpg" alt="Nathan Lee photo">
       <h5>Nathan Lee:</h5> 
       <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-   </li>
-</ul>
-   
-    <footer>
-<address>
+   </section>
+
+</main> 
+      
+<footer>
+  <address>
   Straight to the Point Archery
   528 Nock Point Ln
   Tacoma, WA 98412
@@ -75,13 +88,13 @@
     <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x"></i></a>
   
      <article> 
-       <h6>Nondiscriminatory Policy:</h6>
+  
        <p>
-         Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community. 
+         <snap class="bold"> Nondiscriminatory Policy:</snap> Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community. 
        </p>
       </article> 
 
 </footer>
-    </div>
+   
 </body>
 </html>
