@@ -75,7 +75,8 @@ nav li{
 /*heading 1 Straight to the point, used to style the main heading, will be same from page to page*/
 .main-content-wrapper h1{
   background-color:yellow;
-  font-size:5vw;
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
   grid-column-start:2;
   margin:inherit;
   padding-left:2%;
@@ -95,6 +96,9 @@ nav li{
   width:25%;
   float:left;
   margin-right:3%;
+}
+p {
+   font-family: 'Lato', sans-serif;
 }
 /*footer styling*/
 footer {
