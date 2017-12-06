@@ -29,7 +29,7 @@
 .main-wrapper {
   background-color: rgb(200,200,200);
   display: grid;
-  grid-template-columns: 18% 82%;
+  grid-template-columns: 14% 82%;
   grid-template-rows: 33% 33% 33%;
   margin-left:1.5vw;
   margin-right:1vw;
@@ -79,7 +79,6 @@ nav li {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end:3;
-    float:right;
     background-color:azure;
     overflow:hidden;
 }
@@ -97,17 +96,18 @@ nav li {
     margin-top:3%;
     margin-right:3%;
     margin-left:3%;
-    padding-right: 5%;
+    padding-right: 20%;
     font-size: 1.5rem;   
 }
 
 .main-content img {
-    width:100%;
+    width:300%;
 }
+
 .top {
     float: right;
     width: 120px;
-    margin: 0px 0px 10px 10px;
+    margin: 0px px 10px 10px;
     padding: 15px;
     border: 1px solid black;
     text-align: left;
@@ -116,7 +116,7 @@ nav li {
 .middle {
     float: left;
     width: 120px;
-    margin: 10px 10px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 15px;
     border: 1px solid black;
     text-align: left;
@@ -134,7 +134,7 @@ nav li {
 /* Style for footer */
 
 footer {
-  background-color:green;
+  background-color:;
   clear:both;
   grid-row-start:3;
   grid-column-start:1;
@@ -142,11 +142,5 @@ footer {
   width:100%;
 }
 
-  footer img {
-    margin:.75em;
-    width:8vmin;
-    min-width:5vmin;
-  }
-    footer a:first-of-type {
-      margin-left:40vmin;
-    }
+
+   \
