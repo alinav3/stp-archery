@@ -23,6 +23,9 @@ body {
 /*Class Main-wrapper.  This should be the first div.  Wraps entire content inside body*/
 .main-wrapper {
   background-color: rgb(200,200,200);
+  display: grid;
+  grid-template-columns: 18%; 40.5%; 40.5%;
+  grid-template-rows: 33% 33% 33%;
   width:95vw;
   margin-left:1.5vw;
   margin-right:1vw;
@@ -31,9 +34,12 @@ body {
 /*Gave aside a class called .side-nav (maybe change aside to nav??) make sure to give aside the class name .side-nav*/
 .side-nav{
   background-color:red;
-  width: 15%;
+  float:left;  
+  grid-column-start:1;
+  grid-row-start:1;
+  grid-row-end:3;
   height:850px;
-  float:left;
+  
 }
 /*side nav anchor tags*/
 .side-nav a{
@@ -61,7 +67,8 @@ body {
 }
 /*main content wrapper.  Make sure you have a div with class name main-content-wrapper that wraps heading and page conent outside of side nav and footer. Includes heading Straight to the point and objecs containing information of each page*/
 .main-content-wrapper{
-  width:85%;
+  grid-column-start:2;
+  grid-row-start:1;
   float:left;
   height:850px;
   background-color:aqua;
@@ -95,5 +102,8 @@ body {
 footer {
   background-color:green;
   clear:both;
+  grid-row-start:3;
+  grid-column-start:1;
+  grid-column-end:3;
   width:100%;
 }
