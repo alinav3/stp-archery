@@ -10,11 +10,9 @@
 
 
 /* Main content wrapper styling */
-.main-content-wrapper {
-   height: 850px;
-    width: 60%;
-    background-color: aliceblue;
-    overflow:hidden;
+.main-wrapper {
+  background-color: rgb(200,200,200);
+  display: grid;
 }
 
 
@@ -24,6 +22,8 @@
   padding-top:1%;
   padding-left:2%;
   padding-right: 10%;
+  margin-top: 10px;
+    
 }
 
 .left-nav li {
@@ -46,6 +46,7 @@ h1 {
     text-align:center;
     font-size: 2.5em;
     border-color: aquamarine;
+    
 }
 
 /* about page heading above main content */
@@ -58,6 +59,19 @@ h1 {
 /* Style for footer */
 
 footer {
-    background-color: lightgreen;
-    width: 100%;
+  background-color:green;
+  clear:both;
+  grid-row-start:3;
+  grid-column-start:1;
+  grid-column-end:3;
+  width:100%;
 }
+
+  footer img {
+    margin:.75em;
+    width:8vmin;
+    min-width:5vmin;
+  }
+    footer a:first-of-type {
+      margin-left:40vmin;
+    }
