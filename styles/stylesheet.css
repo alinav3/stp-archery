@@ -38,8 +38,6 @@ body {
   grid-column-start:1;
   grid-row-start:1;
   grid-row-end:3;
-  height:850px;
-  
 }
 /*side nav anchor tags*/
 .side-nav a{
@@ -69,8 +67,9 @@ body {
 .main-content-wrapper{
   grid-column-start:2;
   grid-row-start:1;
+  grid-row-end:3;
   float:left;
-  height:850px;
+  
   background-color:aqua;
   overflow:hidden; 
 }
