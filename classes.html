@@ -4,11 +4,38 @@
     
   <head>
     <meta charset="utf-8" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Example of the Responsive Grid System</title>
+	<meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+	<meta name="keywords" content="responsive, grid, system, web design">
+
+	<meta name="author" content="www.grahamrobertsonmiller.co.uk">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+    
+    <!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/7cols.css" media="all">
+
+    
+    
+    
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Classes</title>
     <!-- insert links to google fonts or font awesome here-->
     <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-guide.css">
+    
+    <script src="https://use.fontawesome.com/a1fe890775.js"></script>
   </head>
   
   <body>
@@ -16,9 +43,9 @@
      <!--div class main-wrapper wraps entire page -->
     <div class="main-wrapper">
         <!--aside navigation(with logo)--> 
-      <aside>
+      <aside class="side-nav">
         <!--Make sure to resize logo in the stylesheet    -->
-        <img src="images/stp-logo.png" alt="STP Logo">
+        <img id="logo" src="images/stp-logo.png" alt="STP Logo">
         <!--list of links on side navigation-->
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -29,40 +56,195 @@
       </aside>
       <!--main-content-wrapper used to wrap the main content (above footer below main heading)-->
       <section class="main-content-wrapper">
+        <h1 id="main-h1">Straight to the Point Archery</h1>
+          <!--objects to hold content-->
+          <!--this code to be changed from page to page-->
+          <div class="content">
     
         <!--CLASSES, PRIVATE LESSONS, CALENDAR-->
 
-        <h1>Classes</h1>
-
+        <h2>Classes</h2>
+        
+        
+        <div class="classes">
         <h3>A101 Basic Archery</h3>
-        <p>Mondays and Wednesdays, 4-5pm</p>
-        <p>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class. - $120/month 
-
+        <p>$120/month <br>Mondays and Wednesdays, 4-5pm</p>
+        <p>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class. 
+ 
+          </p>
+          <p>
           Equipment will be provided with exception of safety kit.</p>
         <p> Prerequisite:   Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</p>
+        </div>
 
+        <div class="classes">
         <h3>A102 Intermediate Archery</h3>
-        <p>Tuesdays and Thursdays, 4-5pm </p>
-        <p>A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class. - $120/month 
+        <p>$120/month <br>Tuesdays and Thursdays, 4-5pm </p>
+        <p>A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.
+          </p>
+          <p>
           Equipment will be provided with exception of safety kit.</p>
         <p>Prerequisite: A101 or recommendation from private lesson instructor. Minimum age  7 years old.</p>
+        </div>
 
+        <div class="classes">
         <h3>A103 Advanced Archery</h3>
-        <p>Tuesdays and Thursdays, 5-6pm</p>
-        <p>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections. - $120/month 
+        <p>$120/month <br>Tuesdays and Thursdays, 5-6pm</p>
+        <p>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
+          </p>
+          <p>
           Equipment will be provided with exception of safety kit.</p>
        
-        <p>A101/A102 or equivalent. Minimum age 7 years old.</p>
+        <p>Prerequisite: A101/A102 or equivalent. Minimum age 7 years old.</p>
+        </div>
 
 
+        <h2>Private Lessons</h2>        
+          <div class="classes-private">
+            <p>1 hour of expert guidance by a USA Archery-certified coach.</p>
+              <section class="private-lessons">
+                 <h3>Single Lesson</h3>
+                  <p>$50s</p>
+              </section>
+            
+              <section class="private-lessons">
+                 <h3>3 Lesson Package</h3>
+                  <p>$140</p>
+              </section>
+            
+              <section class="private-lessons">
+                 <h3>10 Lesson Package</h3>
+                  <p>$380</p>
+              </section>
+        
+        
+          </div>
+        
 
-        <h1>Scheadule</h1>
+        <h2 class="clear">Scheadule</h2>
+          <div class="section group">
+                      <div class="col span_1_of_7">
+                      <h4>Times</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Monday</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Tuesday</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Wednesday</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Thursday</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Friday</h4>
+                      </div>
+                      <div class="col span_1_of_7">
+                      <h4>Sunday</h4>
+                      </div>
+            
+            
+                      <div class="col span_1_of_7">
+                        <p>2-3pm</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+            
+                      
+                      <div class="col span_1_of_7">
+                        <p>3-4pm</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+            
+                      
+                      <div class="col span_1_of_7">
+                        <p>4-5pm</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A101 Basic</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A102 Intermediate</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A101 Basic</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A102 Intermediate</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+            
+                      
+                      <div class="col span_1_of_7">
+                        <p>5-6pm</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A103 Advanced</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>A103 Advanced</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+                      <div class="col span_1_of_7">
+                        <p>-</p>
+                      </div>
+            <div class="scheadule-bottom"></div>
+            
 
-        <img src="#" alt="Calendar">
-
+          </div>
+        </div>
+      </section>
     </div>
 
-    <footer>
+    <footer class="clear">
       <address>
        Straight to the Point Archery
        528 Nock Point Ln
