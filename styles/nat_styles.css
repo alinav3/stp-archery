@@ -22,14 +22,15 @@
   padding-top:1%;
   padding-left:2%;
   padding-right: 10%;
-  margin-top: 10px;
+  margin-top: 1vw;
+  margin-left: 1vw;
     
 }
 
 .main-wrapper {
   background-color: rgb(200,200,200);
   display: grid;
-  grid-template-columns: 14% 82%;
+  grid-template-columns: 18% 82%;
   grid-template-rows: 33% 33% 33%;
   margin-left:1.5vw;
   margin-right:1vw;
@@ -43,15 +44,14 @@
   float:left;
 }
 
-nav a{
-    text-decoration:non;
+nav a {
+    text-decoration:none;
     font-size:3vw
 }
 
 nav ul {
     padding-top:3%;
     padding-left:10%;
-    padding-right;10%;
 }
 
 nav li {
@@ -62,14 +62,12 @@ nav li {
 
 /* header styling - center top of page */
 
-.main-content-wrapper h1{
+.main-content-wrapper h1 {
     background-color:antiquewhite;
     font-size:5vw;
     grid-column-start:2;
     margin:inherit;
-    padding-left:2%;
-    padding-top:.75%;
-    padding-bottom:.75%;
+    text-align: center;
 }
 
 
@@ -98,33 +96,34 @@ nav li {
     margin-left:3%;
     padding-right: 20%;
     font-size: 1.5rem;   
+    background-size: auto;
 }
 
 .main-content img {
-    width:300%;
+    width:100%;
 }
 
 .top {
-    float: right;
-    width: 120px;
-    margin: 0px px 10px 10px;
+    float: left;
+    width: 900px;
     padding: 15px;
+    margin:inherit;
     border: 1px solid black;
     text-align: left;
 }
 
 .middle {
     float: left;
-    width: 120px;
-    margin: 20px 0px 0px 0px;
+    width: 900px;
+    margin: 20px 10px 0px 0px;
     padding: 15px;
     border: 1px solid black;
     text-align: left;
 }
 
 .bottom {
-    float: right;
-    width: 120px;
+    float: left;
+    width: 900px;
     margin: 0px 0px 10px 10px;
     padding: 15px;
     border: 1px solid black;
@@ -134,7 +133,7 @@ nav li {
 /* Style for footer */
 
 footer {
-  background-color:;
+  background-color:lightcoral;
   clear:both;
   grid-row-start:3;
   grid-column-start:1;
@@ -143,4 +142,4 @@ footer {
 }
 
 
-   \
+   
