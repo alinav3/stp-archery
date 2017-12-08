@@ -17,7 +17,7 @@
 }
 /*set background color and body height.  note:ignore color shown, used so I could see how styles changed paged*/
 body {
-  background-color: rgb(0,0,0);
+  background-color: rgb(200,200,200);
   height:100%;
 }
 /*ADDED GRID LAYOUT - Class Main-wrapper.  This should be the first div.  Wraps entire content inside body*/
@@ -32,7 +32,7 @@ body {
 }
 /*Changed aside to NAV so it would pass CSS validator*/
 nav{
-  background-color:red;
+  background-color:#95A38B;
   float:left;  
   grid-column-start:1;
   grid-row-start:1;
@@ -69,12 +69,12 @@ nav li{
   grid-row-end:3;
   float:left;
   
-  background-color:aqua;
+  background-color:#FADF7F;
   overflow:hidden; 
 }
 /*heading 1 Straight to the point, used to style the main heading, will be same from page to page*/
 .main-content-wrapper h1{
-  background-color:yellow;
+  background-color:#95A38B;
   font-family: 'Merriweather', serif;
   font-size: 2em;
   grid-column-start:2;
@@ -85,7 +85,7 @@ nav li{
 }
 /*content changed from page to page.  I tried to create objects for easy styling.  Make sure you have divs with class name ='content'*/
 .content{
-  background-color:black;
+  background-color:#FADF7F;
   margin-top:2%;
   margin-left:2%;
   margin-right:2%;
@@ -102,7 +102,7 @@ p {
 }
 /*footer styling*/
 footer {
-  background-color:green;
+  background-color:#95A38B;
   clear:both;
   grid-row-start:3;
   grid-column-start:1;
