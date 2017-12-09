@@ -12,7 +12,7 @@
 * {
   font-family: serif;
   font-size: 1rem;
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
   box-sizing: border-box;
 }
 /*set background color and body height.  note:ignore color shown, used so I could see how styles changed paged*/
@@ -86,12 +86,11 @@ nav li{
 /*content changed from page to page.  I tried to create objects for easy styling.  Make sure you have divs with class name ='content'*/
 .content{
   background-color:#FADF7F;
-  margin-top:2%;
-  margin-left:2%;
-  margin-right:2%;
-  padding-right:20%;
+  margin:2%;
+  padding: 1% 10% 1% 1%;
   border-style:solid;
-  border-radius:10%;
+  border-width:.05rem;
+  border-radius:.5%;
   font-size:1rem;
 }
 .content img{
