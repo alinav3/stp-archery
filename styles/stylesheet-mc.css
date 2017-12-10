@@ -11,7 +11,6 @@
 * {
   font-family: serif;
   font-size: 1rem;
-  color: rgb(0,0,0);
   box-sizing: border-box;
 }
 /*set background color and body height.  note:ignore color shown, used so I could see how styles changed paged*/
@@ -69,6 +68,7 @@ nav li{
   grid-row-end:3;
   float:left;
   background-color:#FADF7F;
+  color: rgb(0,0,0);
   overflow:hidden; 
 }
 /*heading 1 Straight to the point, used to style the main heading, will be same from page to page*/
@@ -98,7 +98,8 @@ h1{
 .content:hover{
   background-color:#95A38B;
   font-size:2rem;
-  color:rgba(255,255,255,.5);
+  box-shadow:10px 10px;
+  text-shadow:.25px .25px;
 }
 p {
    font-family: 'Lato', sans-serif;
