@@ -36,6 +36,21 @@ nav{
   grid-row-start:1;
   grid-row-end:3;
 }
+button {
+    background-color: #F9B743;
+    border: none;
+    color: #FDFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    font-family: 'Merriweather', serif;
+}
+input[type=text] {
+  width:50%;
+  height:5%
+}
 /*side nav anchor tags*/
 nav a{
   text-decoration:none;
@@ -60,6 +75,7 @@ nav li{
   width:75%;
   padding-top:10%;
   padding-left:25%;
+  padding-bottom:15%;
 }
 /*main content wrapper.  Make sure you have a div with class name main-content-wrapper that wraps heading and page conent outside of side nav and footer. Includes heading Straight to the point and objecs containing information of each page*/
 .main-content-wrapper{
