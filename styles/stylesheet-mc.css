@@ -11,12 +11,12 @@
 * {
   font-family: serif;
   font-size: 1rem;
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
   box-sizing: border-box;
 }
 /*set background color and body height.  note:ignore color shown, used so I could see how styles changed paged*/
 body {
-  background-color: rgb(200,200,200);
+  background-color: #95A38B;
   height:100%;
 }
 /*ADDED GRID LAYOUT - Class Main-wrapper.  This should be the first div.  Wraps entire content inside body*/
@@ -41,6 +41,7 @@ nav{
 nav a{
   text-decoration:none;
   font-size:2vw;
+  color:#0000EE;
 }
 /*side nav unordered list styling*/
 nav ul{
@@ -71,10 +72,10 @@ nav li{
   overflow:hidden; 
 }
 /*heading 1 Straight to the point, used to style the main heading, will be same from page to page*/
-.main-content-wrapper h1{
+h1{
   background-color:#95A38B;
+  font-size:4rem;
   font-family: 'Merriweather', serif;
-  font-size: 2em;
   grid-column-start:2;
   margin:inherit;
   margin-bottom:1%;
@@ -84,7 +85,7 @@ nav li{
 }
 /*content changed from page to page.  I tried to create objects for easy styling.  Make sure you have divs with class name ='content'*/
 .content{
-  background-color:#FADF7F;
+  background-color:#F9B743;
   margin:2%;
   font-size:1rem;
   border-style:solid;
@@ -97,7 +98,7 @@ nav li{
 .content:hover{
   background-color:#95A38B;
   font-size:2rem;
-  color:black;
+  color:rgba(255,255,255,.5);
 }
 p {
    font-family: 'Lato', sans-serif;
