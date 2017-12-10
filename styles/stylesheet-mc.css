@@ -77,6 +77,10 @@ nav li{
   font-size: 2em;
   grid-column-start:2;
   margin:inherit;
+<<<<<<< HEAD
+=======
+  margin-bottom:1%;
+>>>>>>> 777e14813ddc82ae5bd7fe0bb88bc54f9cfdc084
   padding-left:2%;
   padding-top:.75%;
   padding-bottom:.75%;
@@ -84,17 +88,31 @@ nav li{
 /*content changed from page to page.  I tried to create objects for easy styling.  Make sure you have divs with class name ='content'*/
 .content{
   background-color:#FADF7F;
+<<<<<<< HEAD
   margin-top:2%;
   margin-left:2%;
   margin-right:2%;
   padding-right:20%;
   font-size:1rem;
+=======
+  margin:2%;
+  font-size:1rem;
+  border-style:solid;
+>>>>>>> 777e14813ddc82ae5bd7fe0bb88bc54f9cfdc084
 }
 .content img{
   width:25%;
   float:left;
   margin-right:3%;
 }
+<<<<<<< HEAD
+=======
+.content:hover{
+  background-color:#95A38B;
+  font-size:2rem;
+  color:black;
+}
+>>>>>>> 777e14813ddc82ae5bd7fe0bb88bc54f9cfdc084
 p {
    font-family: 'Lato', sans-serif;
 }
@@ -106,4 +124,8 @@ footer {
   grid-column-start:1;
   grid-column-end:3;
   width:100%;
+<<<<<<< HEAD
+=======
+  padding-top:2%;
+>>>>>>> 777e14813ddc82ae5bd7fe0bb88bc54f9cfdc084
 }
